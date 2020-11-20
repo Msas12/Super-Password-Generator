@@ -33,7 +33,13 @@ THEN the password is either displayed in an alert or written to the page
 
 ### In JS
 - Created different vars containing the different character types needed
-- 
+- Created function that prompts the user for the requirements they need
+    - prompts user for number of characters (More than 8 and less than 128)
+    - prompts for character types
+- Created function to randomly generate characters from each array and combine them into a main array based on user's required character types
+- Created button functionality for generating password on button click
+- Created button functionality for copying generated password on button click
+
 
 ### In HTML
 - Added a copy to clipboard button
