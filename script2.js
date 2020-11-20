@@ -100,9 +100,9 @@ function generatePassword() {
     }
 
     // For loop that concatenates random chars from the array of possible chars. And only concatenates up to the length chosen by the user that is stored in the options object
-    for (var i = 0; i < userOptions.length; i++) {
+    for (var i = 0; i < userOptions.userLength; i++) {
         var possibleChar = (possibleChars[Math.floor(Math.random(possibleChars) * possibleChars.length)]);
-        
+
         result.push(possibleChar)
     }
   

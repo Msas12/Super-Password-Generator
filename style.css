@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: hsl(108, 100%, 50%);
+}
+
 html,
 body,
 .wrapper {
@@ -14,7 +18,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: black;
 }
 
 .wrapper {
@@ -27,31 +31,38 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(108, 100%, 50%);
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: black;
   border-radius: 5px;
-  border-width: 1px;
+  border-width: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(108, 100%, 50%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  border-style: solid;
+  border-color:hsl(108, 100%, 50%);
+}
+
+.card-header {
+  text-align: center;
 }
 
 .card-header::after {
   content: " ";
-  display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: black;
   height: 2px;
 }
 
 .card-body {
-  min-height: 100px;
+  min-height: 20px;
+  border-style: solid;
+  border-color:hsl(108, 100%, 50%);
 }
 
 .card-footer {
@@ -60,21 +71,20 @@ header {
 
 .card-footer::before {
   content: " ";
-  display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: black;
   height: 2px;
+
 }
 
 .card-footer::after {
   content: " ";
-  display: block;
   clear: both;
 }
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: hsl(108, 100%, 29%);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -97,6 +107,7 @@ button[disabled] {
   float: right;
 }
 
+
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -107,13 +118,10 @@ button[disabled] {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  background-color: black;
+  color: chartreuse;
   resize: none;
   overflow: hidden;
 }
