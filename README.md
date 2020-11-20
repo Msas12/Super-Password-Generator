@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Super-Password-Generator
 
-You can use the [editor on GitHub](https://github.com/Msas12/Super-Password-Generator/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Completed Web Page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The following image shows the completed web application's appearance and functionality:
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Completed Homework Image](./imgs/Picture1.jpg)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Tasks to be Completed for Acceptance
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Steps to complete homework
 
-### Jekyll Themes
+### In JS
+- Created different vars containing the different character types needed
+- 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Msas12/Super-Password-Generator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### In HTML
+- Added a copy to clipboard button
 
-### Support or Contact
+### In CSS
+- Updated look of webpage to look like an old terminal
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Link to Webpage 
+[Super Password Generator](https://msas12.github.io/Super-Password-Generator/)
